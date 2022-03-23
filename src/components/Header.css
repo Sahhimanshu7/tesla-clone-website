@@ -1,0 +1,49 @@
+.Header{
+    min-height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+
+    
+}
+@media(max-width: 1024px){
+    .menu{
+        display: none;
+    }
+}
+.menu p{
+    font-weight: 600;
+    font-size: 0.8em;
+    padding: 0 10px;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+}
+.rightMenu{
+    display:flex;
+    align-items: center;
+}
+.rightMenu p{
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.wrapper{
+    display:flex;
+    width:100%;
+    justify-content:flex-end;
+}

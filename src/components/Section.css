@@ -1,0 +1,97 @@
+.Section{
+    width: 100vw;
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Section1{
+    background-image: url("../images/model-s.jpg");
+}
+.Section2{
+    background-image: url("../images/model-y.jpg");
+}
+.Section3{
+    background-image: url("../images/model-3.jpg");
+}
+.Section4{
+    background-image: url("../images/model-x.jpg");
+}
+.Section5{
+    background-image: url("../images/solar-panel.jpg");
+}
+.Section6{
+    background-image: url("../images/solar-roof.jpg");
+}
+.Section7{
+    background-image: url("../images/accessories.jpg");
+}
+.textItem{
+    padding-top: 15vh;
+
+    text-align: center;
+    align-items: center;
+}
+.buttonGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+@media (max-width: 768px){
+    .buttonGroup{
+        flex-direction: column;
+    }
+}
+.leftButton{
+    background-color: rgba(23, 26, 32, 0.8);
+    height: 40px;
+    width: 256px;
+    color: white;
+    text-transform: uppercase;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.85;
+    font-size: 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 8px;
+}
+.rightButton{
+    background-color: white;
+    height: 40px;
+    width: 256px;
+    color: black;
+    text-transform: uppercase;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.65;
+    font-size: 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.downImg{
+    margin-top: 20px;
+    height: 40px;
+
+    animation: animateDown infinite 1.5s;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+}
